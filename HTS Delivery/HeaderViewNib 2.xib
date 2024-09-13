@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="" id="T9i-ml-62s" customClass="HeaderView" customModule="HTS_Delivery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yassa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Zq-Ip-7Vk">
+                    <rect key="frame" x="0.0" y="0.0" width="325" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="Ouj-VK-fBS"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="INn-Uf-wsN">
+                    <rect key="frame" x="70" y="260" width="250" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWf-f0-FWA">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="34.5"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cusine" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUB-fX-WUe">
+                            <rect key="frame" x="0.0" y="34.5" width="55" height="32.5"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLe-yL-Byi">
+                            <rect key="frame" x="0.0" y="67" width="67" height="33"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EO8-uI-vet">
+                    <rect key="frame" x="70" y="390" width="248" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="OPEN NOW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-SP-VPW">
+                            <rect key="frame" x="0.0" y="0.0" width="248" height="40"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday 11:30AM - 9:30PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzy-9Z-5ze">
+                            <rect key="frame" x="0.0" y="40" width="248" height="20"/>
+                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="K9D-1h-gsv"/>
+                    </constraints>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oVg-y9-iDD">
+                    <rect key="frame" x="5" y="260" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="JaJ-n8-eZx"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="GMW-io-0qD"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oVg-y9-iDD" firstAttribute="top" secondItem="1Zq-Ip-7Vk" secondAttribute="bottom" constant="10" id="09T-CQ-laH"/>
+                <constraint firstItem="EO8-uI-vet" firstAttribute="leading" secondItem="GMW-io-0qD" secondAttribute="leading" constant="70" id="1xE-uB-bOB"/>
+                <constraint firstItem="GMW-io-0qD" firstAttribute="trailing" secondItem="INn-Uf-wsN" secondAttribute="trailing" id="3sj-UE-nXm"/>
+                <constraint firstItem="INn-Uf-wsN" firstAttribute="top" secondItem="1Zq-Ip-7Vk" secondAttribute="bottom" constant="10" id="3t1-Vb-FvS"/>
+                <constraint firstItem="oVg-y9-iDD" firstAttribute="leading" secondItem="GMW-io-0qD" secondAttribute="leading" constant="5" id="5oF-9p-RqS"/>
+                <constraint firstItem="INn-Uf-wsN" firstAttribute="leading" secondItem="oVg-y9-iDD" secondAttribute="trailing" constant="5" id="Qk9-Db-xpZ"/>
+                <constraint firstItem="GMW-io-0qD" firstAttribute="bottom" secondItem="EO8-uI-vet" secondAttribute="bottom" constant="10" id="aDR-cl-koJ"/>
+                <constraint firstItem="GMW-io-0qD" firstAttribute="trailing" secondItem="EO8-uI-vet" secondAttribute="trailing" constant="2" id="gmk-ic-88Q"/>
+                <constraint firstItem="GMW-io-0qD" firstAttribute="bottom" secondItem="INn-Uf-wsN" secondAttribute="bottom" constant="100" id="kfZ-jJ-S9U"/>
+                <constraint firstItem="1Zq-Ip-7Vk" firstAttribute="leading" secondItem="T9i-ml-62s" secondAttribute="leading" id="rvS-yl-EoV"/>
+                <constraint firstItem="INn-Uf-wsN" firstAttribute="leading" secondItem="GMW-io-0qD" secondAttribute="leading" constant="70" id="tjt-hh-p3D"/>
+                <constraint firstItem="1Zq-Ip-7Vk" firstAttribute="trailing" secondItem="T9i-ml-62s" secondAttribute="trailing" constant="5" id="zIb-bC-tKO"/>
+                <constraint firstItem="1Zq-Ip-7Vk" firstAttribute="top" secondItem="T9i-ml-62s" secondAttribute="top" id="zmP-ta-X5t"/>
+            </constraints>
+            <connections>
+                <outlet property="address" destination="WLe-yL-Byi" id="anv-NS-Dao"/>
+                <outlet property="cuisine" destination="KUB-fX-WUe" id="Uou-le-cGj"/>
+                <outlet property="hoursLabel" destination="Uzy-9Z-5ze" id="La0-dR-qQv"/>
+                <outlet property="imageView" destination="1Zq-Ip-7Vk" id="9qD-Mm-LFO"/>
+                <outlet property="logoImageView" destination="oVg-y9-iDD" id="3zJ-ut-4ef"/>
+                <outlet property="name" destination="jWf-f0-FWA" id="T1z-hm-JAy"/>
+                <outlet property="statusLabel" destination="WPd-SP-VPW" id="d1Z-Fp-iGu"/>
+            </connections>
+            <point key="canvasLocation" x="531.8840579710145" y="-1962.0535714285713"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="yassa.jpg" width="600" height="450"/>
+    </resources>
+</document>
